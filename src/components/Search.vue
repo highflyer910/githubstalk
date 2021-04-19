@@ -28,7 +28,7 @@
           <div v-if="show" class="flex flex-wrap -m-2">
             <div v-for="repo in repos" class="p-2 lg:w-1/3 md:w-1/2 w-full transition duration-300 ease-in-out">
               <div class="h-full flex items-center border-gray-200 border p-2 rounded-lg shadow-md">
-                <a :href="repo.owner.avatar_url" target="_blank" class="w-16 h-16 m-2 flex-shrink-0">
+                <a :href="repo.owner.html_url" target="_blank" class="w-16 h-16 m-2 flex-shrink-0">
                   <img :src="repo.owner.avatar_url" alt="avatar"  class="object-cover object-center rounded-full">
                 </a>
 
@@ -77,7 +77,7 @@
 
       <footer class="flex items-center justify-center">
         <p class="font-mono font-sm text-gray-600">
-          Made with ❤️ by <a href="https://highflyer910.github.io/" target="_blank" class="font-bold">Teona</a>
+          Made with ❤️ by <a href="https://github.com/highflyer910/githubstalk" target="_blank" class="font-bold">Teona</a>
         </p>
       </footer>
     </div>
