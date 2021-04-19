@@ -77,7 +77,7 @@
 
       <footer class="flex items-center justify-center">
         <p class="font-mono font-sm text-gray-600">
-          Made with ❤️ by <a href="https://github.com/highflyer910/githubstalk" target="_blank" class="font-bold">Teona</a>
+          <a href="https://github.com/highflyer910/githubstalk" target="_blank">Made</a> with ❤️ by <a href="https://highflyer910.github.io/" target="_blank" class="font-bold">Teona</a>
         </p>
       </footer>
     </div>
